@@ -1,4 +1,3 @@
-```markdown
 # 🌍 GCP Health Data Pipeline
 
 This project demonstrates how to build a data pipeline on **Google Cloud Platform** using **Apache Airflow (installed on a VM)**, **Google Cloud Storage (GCS)**, and **BigQuery**.
@@ -9,23 +8,18 @@ A CSV file containing **1 million rows** of global health data is uploaded to GC
 
 ## 📁 Project Structure
 
-```
-gcp-health-data-pipeline/
-│
-├── dags/
-│   └── load_transform_reporting_dag.py
-│
-├── images/
-│   ├── create_service_account.png
-│   ├── create_vm.png
-│   ├── dag_graph.png
-│   ├── dag_run_logs.png
-│   ├── install_airflow_vm.png
-│   ├── service_account_roles.png
-│   └── upload_gcs.png
-│
+gcp-health-data-pipeline/  
+├── dags/  
+│   └── load_transform_reporting_dag.py  
+├── images/  
+│   ├── create_service_account.png  
+│   ├── create_vm.png  
+│   ├── dag_graph.png  
+│   ├── dag_run_logs.png  
+│   ├── install_airflow_vm.png  
+│   ├── service_account_roles.png  
+│   └── upload_gcs.png  
 └── README.md
-```
 
 ---
 
@@ -113,4 +107,3 @@ DAG Logs:
 
 Mohamed EN-NACIRI  
 [LinkedIn](https://www.linkedin.com/in/mohamed-en-naciri-3a9988261/) | [GitHub](https://github.com/ennacirimohamed)
-```
