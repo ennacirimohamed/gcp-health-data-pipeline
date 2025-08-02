@@ -12,7 +12,7 @@ default_args = {
     'retries': 1,
 }
 
-COUNTRIES = ['Canada', 'France', 'USA', 'India', 'Italy']
+COUNTRIES = ['Canada', 'France', 'USA', 'India', 'Italy','Japan']
 PROJECT_ID = 'wired-effect-467812-k2'
 STAGING_DATASET = 'stagingdataset'
 TRANSFORM_DATASET = 'transformdataset'
